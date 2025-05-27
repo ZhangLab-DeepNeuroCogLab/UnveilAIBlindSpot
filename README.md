@@ -60,7 +60,7 @@ Our codebase is structured in a manner similar to the [SlowFast](https://github.
 
 All hyperparameters are listed and explained in the [Config](Config/defaults.py).
 
-Remember to modify the following parameters in the [YAML](YAML/BMP.yaml) file to your own:
+Remember to modify the following parameters in the [YAML](YAML/train.yaml) file to your own:
 * BASE_MODEL.CHECKPOINT_FILE_PATH
 * TRAIN.DATASET
 * TEST.DATASET
@@ -71,7 +71,7 @@ You can start training the model from scratch by running:
 ```
 python3 Main/main.py --cfg YAML/train.yaml
 ```
-We use TRAIN.ENABLE and TEST.ENABLE in the [YAML](YAML/BMP.yaml) file to determine if training or testing should be performed for the current task. If you wish to conduct only testing, set TRAIN.ENABLE to False. 
+We use TRAIN.ENABLE and TEST.ENABLE in the [YAML](YAML/train.yaml) file to determine if training or testing should be performed for the current task. If you wish to conduct only testing, set TRAIN.ENABLE to False. 
 
 You can test the model by running:
 
