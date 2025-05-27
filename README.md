@@ -5,7 +5,7 @@ Authors: Shuangpeng Han, Mengmi Zhang
 This is a PyTorch implementation of our paper. **Our paper has been accepted in ICML 2025.**
 
 <p align="left">
-  <a href="" target="_blank"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
+  <a href="https://arxiv.org/pdf/2410.02384v3" target="_blank"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
   &nbsp
   <a href="" target="_blank"><img src="https://img.shields.io/badge/Presentation-Video-blue.svg"></a>
   &nbsp
