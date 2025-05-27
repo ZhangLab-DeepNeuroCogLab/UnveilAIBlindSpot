@@ -9,7 +9,7 @@ This is a PyTorch implementation of our paper. **Our paper has been accepted in 
   &nbsp
   <a href="" target="_blank"><img src="https://img.shields.io/badge/Presentation-Video-blue.svg"></a>
   &nbsp
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/Paper-Poster-green.svg"></a>
+  <a href="https://drive.google.com/file/d/13eNm1NPxhRnXnWWln6Os0B1CvtcEzPEp/view?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Paper-Poster-green.svg"></a>
 </p> 
 
 ## Project Description
