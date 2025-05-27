@@ -1,0 +1,30 @@
+MODE: AA #
+RNG_SEED: 1 #
+TRAIN:
+  ENABLE: True
+  DATASET: ['cifar10-A_PIFGSM-eps_1div255']
+  BATCH_SIZE: 32 #
+  MIXED_PRECISION: True 
+TEST:
+  ENABLE: True
+  DATASET: ['cifar10-Normal','cifar10-C-SpN-1','cifar10-C-GaB-1','cifar10-C-Spat-1','cifar10-C-Sat-1','cifar10-A_PGD-eps_1div255','cifar10-A_CW-c_1','cifar10-A_Jitter-eps_1div255','cifar10-A_PIFGSM-eps_1div255'] 
+  BATCH_SIZE: 1024 #
+  TEST_PERIOD: 1
+BASE_MODEL:
+  MODEL_NAME: resnet50 #
+  CHECKPOINT_FILE_PATH: your own path
+  NUM_CLASSES: 10
+  PRETRAIN: True
+TEACHER:
+  MODEL_NAME: vit #
+  NUM_CLASSES: 10
+SOLVER:
+  BASE_LR: 3e-5
+  MAX_EPOCH: 30
+  WEIGHT_DECAY: 5e-2
+  CLIP_GRAD_L2NORM: 10.0
+DATA_LOADER:
+  NUM_WORKERS: 8
+OUTPUT_DIR: your own path
+ALPHA: 1.0
+DATA_SPLIT_MODE: random
