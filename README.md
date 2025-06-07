@@ -7,7 +7,7 @@ This is a PyTorch implementation of our paper. **Our paper has been accepted in 
 <p align="left">
   <a href="https://arxiv.org/pdf/2410.02384v3" target="_blank"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
   &nbsp
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/Presentation-Video-blue.svg"></a>
+  <a href="https://www.youtube.com/watch?v=FGDhChX56cA" target="_blank"><img src="https://img.shields.io/badge/Presentation-Video-blue.svg"></a>
   &nbsp
   <a href="https://drive.google.com/file/d/13eNm1NPxhRnXnWWln6Os0B1CvtcEzPEp/view?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/Paper-Poster-green.svg"></a>
 </p> 
