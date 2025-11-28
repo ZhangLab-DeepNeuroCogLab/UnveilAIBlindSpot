@@ -86,14 +86,10 @@ python3 Main/main.py --cfg YAML/train.yaml \
 If you find our work useful in your research, please use the following BibTeX entry for citation.
 
 ```
-@misc{han2025unveilingaisblindspots,
-      title={Unveiling AI's Blind Spots: An Oracle for In-Domain, Out-of-Domain, and Adversarial Errors}, 
-      author={Shuangpeng Han and Mengmi Zhang},
-      year={2025},
-      eprint={2410.02384},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.02384}, 
+@inproceedings{hanunveiling,
+  title={Unveiling AI's Blind Spots: An Oracle for In-Domain, Out-of-Domain, and Adversarial Errors},
+  author={Han, Shuangpeng and Zhang, Mengmi},
+  booktitle={Forty-second International Conference on Machine Learning}
 }
 ```
 
